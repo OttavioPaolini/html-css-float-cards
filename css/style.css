@@ -7,5 +7,21 @@
 
 /* Common */
 html{
-    font-family:fredoka,sans-serif;
+    font-family: 'Fredoka',sans-serif;
+    font-size: 100%;
+}
+
+/* Main */
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    /* debug */
+    background-color: lightcoral;
+    border:1px solid black
+}
+
+h1{
+    color:#E53170;
+    padding: 2rem;
 }
