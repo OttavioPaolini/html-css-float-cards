@@ -8,20 +8,45 @@
 /* Common */
 html{
     font-family: 'Fredoka',sans-serif;
-    font-size: 100%;
+    font-size: 62.5%;
 }
 
-/* Main */
+/* Main-Title */
+.title{
+    text-align: center;
+}
 .container{
     margin: 0 auto;
-    text-align: center;
     width: 80%;
-    /* debug */
-    background-color: lightcoral;
-    border:1px solid black
 }
 
 h1{
+    font-size: 3rem;
     color:#E53170;
     padding: 2rem;
+}
+p{
+    font-size: 1.3rem;
+}
+/* Profile-Link */
+
+.banner{
+    width: calc(100% / 3);
+    float: left;
+    height: 100px;
+    margin-top: 3rem;
+    
+}
+img{
+    float: left;
+    line-height: 100px;
+    height: 100px;
+}
+.text{
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    display:inline-block;
+    
 }
